@@ -1,7 +1,7 @@
 // OG's Flea-Free Mission -- minimal offline cache.
 // Everything the page needs (fonts, photos) is inlined in index.html already,
 // so caching that single document is enough for full offline access.
-const CACHE_NAME = 'og-flea-mission-v1';
+const CACHE_NAME = 'og-flea-mission-v2';
 const CORE_ASSETS = ['./', './index.html', './manifest.json'];
 
 self.addEventListener('install', event => {
