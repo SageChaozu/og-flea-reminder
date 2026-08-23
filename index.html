@@ -192,12 +192,6 @@ footer{text-align:center;margin-top:8px;}
   <div class="reset-row"><button id="resetBtn">reset countdown</button></div>
 </div>
 
-<footer>
-  <p class="quote">You finish what you start, you keep a loving home, and you always look after your family. That&rsquo;s just who you are &mdash; and those little pests picked the wrong house.</p>
-  <p class="signoff">We love you, OG &mdash; you&rsquo;ve got this! &#128149;</p>
-  <p class="seal-line">O.G. &middot; Flea&ndash;Fighting Champion &#11088;&#11088;&#11088;</p>
-</footer>
-
 <div class="panel rem-panel">
   <div class="panel-title"><span class="dot"></span>Set Her Daily Reminders</div>
   <p class="rem-sub"><b>One&ndash;time setup.</b> Pick a time, then download 14 days of calendar alerts starting today &mdash; syncs to a paired Apple Watch too.</p>
@@ -209,6 +203,12 @@ footer{text-align:center;margin-top:8px;}
   <p id="remStatus" class="rem-status"></p>
   <p class="rem-help">Opens in Files &mdash; tap it there to add to Calendar. If it doesn&rsquo;t prompt automatically, check Files &rarr; Downloads.</p>
 </div>
+
+<footer>
+  <p class="quote">You finish what you start, you keep a loving home, and you always look after your family. That&rsquo;s just who you are &mdash; and those little pests picked the wrong house.</p>
+  <p class="signoff">We love you, OG &mdash; you&rsquo;ve got this! &#128149;</p>
+  <p class="seal-line">O.G. &middot; Flea&ndash;Fighting Champion &#11088;&#11088;&#11088;</p>
+</footer>
 
 <script>
 (function(){
