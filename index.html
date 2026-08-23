@@ -85,6 +85,7 @@ h1{font-family:var(--display);font-size:30px;line-height:1.08;color:var(--mulber
 .rem-btn:active{background:var(--rose-deep);}
 .rem-status{text-align:center;font-size:13.5px;color:var(--sage-deep);min-height:18px;margin:10px 0 2px;}
 .rem-help{font-family:var(--hand);text-align:center;font-size:13px;color:var(--rose-deep);margin:2px 0 0;}
+.rem-panel{margin-top:26px;border-style:dashed;}
 
 .count-sub{font-family:var(--hand);text-align:center;color:var(--sage-deep);
   font-size:15px;margin:-2px 0 14px;}
@@ -168,18 +169,6 @@ footer{text-align:center;margin-top:8px;}
 </div>
 
 <div class="panel">
-  <div class="panel-title"><span class="dot"></span>Set Her Daily Reminders</div>
-  <p class="rem-sub">Pick a time, then download 14 days of calendar alerts starting today &mdash; syncs to a paired Apple Watch too.</p>
-  <div class="rem-row">
-    <label for="remTime" class="rem-label">Reminder time</label>
-    <input type="time" id="remTime" value="09:00">
-  </div>
-  <button id="remBtn" class="rem-btn" type="button">Download Reminders (.ics)</button>
-  <p id="remStatus" class="rem-status"></p>
-  <p class="rem-help">Opens in Files &mdash; tap it there to add to Calendar. If it doesn&rsquo;t prompt automatically, check Files &rarr; Downloads.</p>
-</div>
-
-<div class="panel">
   <div class="panel-title"><span class="dot"></span>14&ndash;Day Countdown</div>
   <p class="count-sub">tap a circle each night you finish!</p>
   <div class="day-grid">
@@ -201,6 +190,18 @@ footer{text-align:center;margin-top:8px;}
   <div class="progress-wrap"><div class="progress-fill" id="progressFill"></div></div>
   <p id="progressText">0 of 14 days complete</p>
   <div class="reset-row"><button id="resetBtn">reset countdown</button></div>
+</div>
+
+<div class="panel rem-panel">
+  <div class="panel-title"><span class="dot"></span>Set Her Daily Reminders</div>
+  <p class="rem-sub"><b>One&ndash;time setup.</b> Pick a time, then download 14 days of calendar alerts starting today &mdash; syncs to a paired Apple Watch too.</p>
+  <div class="rem-row">
+    <label for="remTime" class="rem-label">Reminder time</label>
+    <input type="time" id="remTime" value="09:00">
+  </div>
+  <button id="remBtn" class="rem-btn" type="button">Download Reminders (.ics)</button>
+  <p id="remStatus" class="rem-status"></p>
+  <p class="rem-help">Opens in Files &mdash; tap it there to add to Calendar. If it doesn&rsquo;t prompt automatically, check Files &rarr; Downloads.</p>
 </div>
 
 <footer>

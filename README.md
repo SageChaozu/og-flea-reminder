@@ -26,7 +26,9 @@ flea-elimination routine.
   pick a reminder time and download a fresh 14-day `.ics` file that starts
   from *that day* — not a fixed date baked in ahead of time. Tapping the
   downloaded file in Files adds all 14 to Calendar, syncing to a paired
-  Apple Watch automatically.
+  Apple Watch automatically. That panel sits near the bottom of the page,
+  below the countdown and just above the sign-off, so it can't be tapped
+  by accident while she's scrolling to tick off a day.
 
 One honest caveat: getting a browser-generated `.ics` file to hand off
 cleanly to the Calendar app has a history of being inconsistent across iOS
